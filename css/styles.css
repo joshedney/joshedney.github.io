@@ -155,6 +155,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  line-height: 2em;
 }
 
 abbr[title],
@@ -488,7 +489,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
@@ -3024,14 +3025,21 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #106FAD;
-  border-color: #106FAD;
+  color: #28a745;
+  background-color: white;
+  border-color: #28a745;
+  border-radius: 25px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  top: 0;
+  position: relative;
+  transition: 0.3s ease;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #4AB7FF;
-  border-color: #2FAAFA;
+  background-color: #28a745;
+  top: -3px;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -4502,17 +4510,6 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 0.125rem solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.5rem;
-}
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -6738,7 +6735,7 @@ textarea.form-control-lg {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 25%) !important;
 }
 
 .shadow-sm {
@@ -11450,16 +11447,12 @@ html {
   position: relative;
   display: block;
   max-width: 25rem;
-  border-radius: 0.5rem;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
   left: 0;
-  transition: all 0.2s ease-in-out;
-  opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11494,3 +11487,38 @@ html {
 .copyright {
   background-color: #0f6096;
 }
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+}
+
+.repo1 {
+  border-left: 4px solid #1a6197;
+}
+
+.repo2 {
+  border-left: 4px solid #206ba2;
+}
+
+.repo3 {
+  border-left: 4px solid #2576ad;
+}
+
+.repo4 {
+  border-left: 4px solid #3382ba;
+}
+
+.repo5 {
+  border-left: 4px solid #3b8ec8;
+}
+
+.repo6 {
+  border-left: 4px solid #419cd5;
+}
+
