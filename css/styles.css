@@ -3025,24 +3025,24 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #106FAD;
+  border-color: #106FAD;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
+  background-color: #4AB7FF;
+  border-color: #2FAAFA;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
+  background-color: #106FAD;
+  border-color: #106FAD;
   box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #15967d;
-  border-color: #148d75;
+  background-color: #4AB7FF;
+  border-color: #2FAAFA;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
@@ -11418,7 +11418,7 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top:6rem;
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -11434,7 +11434,7 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: 6rem;
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
@@ -11487,10 +11487,10 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #4AB7FF;
+  background-color: #106FAD;
   color: #fff;
 }
 
 .copyright {
-  background-color: #106FAD;
+  background-color: #0f6096;
 }
