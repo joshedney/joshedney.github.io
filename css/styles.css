@@ -11498,6 +11498,15 @@ html {
   background-clip: border-box;
 }
 
+.skill-card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+}
+
 .repo1 {
   border-left: 4px solid #1a6197;
 }
@@ -11522,3 +11531,8 @@ html {
   border-left: 4px solid #419cd5;
 }
 
+.skills {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
